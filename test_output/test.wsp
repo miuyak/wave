@@ -1,0 +1,599 @@
+{
+ "name": "House",
+ "bpm": 126.0,
+ "swing": 0.0,
+ "master_volume": 0.85,
+ "current_pattern": 0,
+ "next_channel_id": 9,
+ "channels": [
+  {
+   "id": 1,
+   "generator": "kick",
+   "name": "Kick",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [
+    {
+     "type": "filter",
+     "enabled": false,
+     "params": {
+      "cutoff": 800.0,
+      "mode": 1
+     }
+    }
+   ],
+   "extra": {}
+  },
+  {
+   "id": 2,
+   "generator": "snare",
+   "name": "Snare",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 3,
+   "generator": "clap",
+   "name": "Clap",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 4,
+   "generator": "chat",
+   "name": "HiHat Closed",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 5,
+   "generator": "ohat",
+   "name": "HiHat Open",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 6,
+   "generator": "crash",
+   "name": "Crash",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 7,
+   "generator": "bass",
+   "name": "Bass Synth",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  },
+  {
+   "id": 8,
+   "generator": "keys",
+   "name": "E-Piano",
+   "volume": 0.8,
+   "pan": 0.0,
+   "mute": false,
+   "solo": false,
+   "fx": [],
+   "extra": {}
+  }
+ ],
+ "patterns": [
+  {
+   "name": "Main groove",
+   "length": 16,
+   "steps": {
+    "1": [
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "2": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "3": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "4": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "5": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "6": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "notes": {
+    "7": [
+     {
+      "start": 0,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.9
+     },
+     {
+      "start": 2,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.9
+     },
+     {
+      "start": 4,
+      "length": 2,
+      "pitch": 36,
+      "velocity": 0.9
+     },
+     {
+      "start": 6,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.9
+     },
+     {
+      "start": 8,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.9
+     },
+     {
+      "start": 10,
+      "length": 2,
+      "pitch": 36,
+      "velocity": 0.9
+     },
+     {
+      "start": 12,
+      "length": 2,
+      "pitch": 31,
+      "velocity": 0.9
+     },
+     {
+      "start": 14,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.9
+     }
+    ],
+    "8": [
+     {
+      "start": 0,
+      "length": 8,
+      "pitch": 57,
+      "velocity": 0.55
+     },
+     {
+      "start": 0,
+      "length": 8,
+      "pitch": 60,
+      "velocity": 0.55
+     },
+     {
+      "start": 0,
+      "length": 8,
+      "pitch": 64,
+      "velocity": 0.55
+     },
+     {
+      "start": 8,
+      "length": 8,
+      "pitch": 55,
+      "velocity": 0.55
+     },
+     {
+      "start": 8,
+      "length": 8,
+      "pitch": 59,
+      "velocity": 0.55
+     },
+     {
+      "start": 8,
+      "length": 8,
+      "pitch": 62,
+      "velocity": 0.55
+     }
+    ]
+   }
+  },
+  {
+   "name": "Variation",
+   "length": 16,
+   "steps": {
+    "1": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "2": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "4": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ],
+    "5": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "notes": {
+    "7": [
+     {
+      "start": 0,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.95
+     },
+     {
+      "start": 3,
+      "length": 2,
+      "pitch": 33,
+      "velocity": 0.95
+     },
+     {
+      "start": 6,
+      "length": 2,
+      "pitch": 36,
+      "velocity": 0.95
+     },
+     {
+      "start": 8,
+      "length": 2,
+      "pitch": 38,
+      "velocity": 0.95
+     },
+     {
+      "start": 11,
+      "length": 2,
+      "pitch": 36,
+      "velocity": 0.95
+     },
+     {
+      "start": 14,
+      "length": 2,
+      "pitch": 31,
+      "velocity": 0.95
+     }
+    ],
+    "8": [
+     {
+      "start": 0,
+      "length": 16,
+      "pitch": 57,
+      "velocity": 0.5
+     },
+     {
+      "start": 0,
+      "length": 16,
+      "pitch": 60,
+      "velocity": 0.5
+     },
+     {
+      "start": 0,
+      "length": 16,
+      "pitch": 64,
+      "velocity": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "name": "Pattern 3",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 4",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 5",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 6",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 7",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 8",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 9",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 10",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 11",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 12",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 13",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 14",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 15",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  },
+  {
+   "name": "Pattern 16",
+   "length": 16,
+   "steps": {},
+   "notes": {}
+  }
+ ],
+ "clips": [
+  {
+   "pattern": 0,
+   "track": 0,
+   "start": 0,
+   "length": 16
+  },
+  {
+   "pattern": 0,
+   "track": 0,
+   "start": 16,
+   "length": 16
+  },
+  {
+   "pattern": 1,
+   "track": 1,
+   "start": 16,
+   "length": 16
+  },
+  {
+   "pattern": 0,
+   "track": 0,
+   "start": 32,
+   "length": 16
+  },
+  {
+   "pattern": 1,
+   "track": 1,
+   "start": 48,
+   "length": 16
+  }
+ ],
+ "track_muted": [
+  false,
+  true,
+  false,
+  false,
+  false
+ ],
+ "master_fx": [
+  {
+   "type": "compressor",
+   "enabled": true,
+   "params": {
+    "threshold": -14.0,
+    "ratio": 2.5,
+    "makeup": 3.0
+   }
+  },
+  {
+   "type": "width",
+   "enabled": true,
+   "params": {
+    "width": 1.05
+   }
+  },
+  {
+   "type": "limiter",
+   "enabled": true,
+   "params": {
+    "ceiling": -1.5
+   }
+  }
+ ]
+}
